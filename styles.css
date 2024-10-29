@@ -1,0 +1,10 @@
+.box {
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+  }
+  .bpm {
+      text-align: center;
+   /* background-color: blue; */
+  }
