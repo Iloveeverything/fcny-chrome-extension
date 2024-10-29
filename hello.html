@@ -1,15 +1,20 @@
 <html>
   <head>
-    <link rel = "stylesheet" href = "styles.css" >
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body  class = "box">
-    <h1>A metronome is a device that produces a steady beat.</h1>
-    <p class = "bpm"> BPM <span id="bpmDispay"></span>
-      <br/>
-    <input id="tempoSlider" type="range" min="50" max="200" value="100">
-    <br/>
+  <body class="box">
+    <h1>A Happy Birthday Metronome!</h1>
+    <p class="bpm">
+      BPM
+      <br />
+
+      <input id="tempoSlider" type="range" min="50" max="200" value="100" />
+      <br />
     </p>
+    <span id="bpmDisplay"></span>
+    <br />
+    <br />
     <button id="startButton">start</button>
-    <script src="popup.js"></script>
+    <script src="popup.js" type="module"></script>
   </body>
 </html>
